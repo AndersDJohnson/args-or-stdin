@@ -1,0 +1,15 @@
+{
+  "name": "args-or-stdin",
+  "version": "1.0.0",
+  "description": "Read from process args otherwise stdin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anders D. Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "get-stdin": "^5.0.1"
+  }
+}
