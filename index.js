@@ -7,7 +7,7 @@ module.exports = function (options) {
     if (!args.length) {
       getStdin().then(str => {
         if (!str && !options.allowEmpty) {
-          reject("need args or stdin")
+          reject('need args or stdin')
           return
         }
         if (!options.multi) {
